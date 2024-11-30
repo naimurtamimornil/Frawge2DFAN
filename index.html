@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnil's Anime Universe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Passion+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Arnil's Anime Universe</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My Anime World!</h2>
+                <div class="image-carousel">
+                    <!-- Placeholder for rotating images -->
+                    <img src="/api/placeholder/800/400" alt="Anime Showcase" class="carousel-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>Anime News</h2>
+            <div id="rss-feed">
+                <!-- RSS feed content will be dynamically loaded here -->
+                <p>Latest news loading...</p>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2>My Anime Reviews</h2>
+            <div class="review-container">
+                <div class="review-card">
+                    <h3>One Piece</h3>
+                    <p>My epic journey through the Grand Line! An incredible adventure that...</p>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+                <div class="review-card">
+                    <h3>Naruto</h3>
+                    <p>A tale of perseverance and growth that shaped my understanding of...</p>
+                    <a href="#" class="read-more">Read Full Review</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="community">
+            <h2>Community Corner</h2>
+            <div class="community-grid">
+                <div class="youtube-section">
+                    <h3>Anime YouTube</h3>
+                    <div id="youtube-videos">
+                        <!-- YouTube videos will be dynamically embedded here -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLACEHOLDER_PLAYLIST" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="twitter-section">
+                    <h3>Anime Tweets</h3>
+                    <div id="twitter-timeline">
+                        <!-- Twitter timeline will be dynamically loaded here -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="interactive-features">
+                <h3>Engage with Us!</h3>
+                <div class="poll">
+                    <p>What's your favorite anime genre?</p>
+                    <form id="genre-poll">
+                        <input type="radio" id="romance" name="genre" value="romance">
+                        <label for="romance">Romance</label>
+                        <input type="radio" id="action" name="genre" value="action">
+                        <label for="action">Action</label>
+                        <input type="radio" id="isekai" name="genre" value="isekai">
+                        <label for="isekai">Isekai</label>
+                        <button type="submit">Vote</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Arnil's Anime Universe. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#" download>Anime Wallpapers</a>
+                <a href="#" target="_blank">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
